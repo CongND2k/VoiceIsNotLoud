@@ -1,0 +1,122 @@
+.wrapper {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 72px;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: var(--background-tertiary); */
+    background-color: #202225;
+}
+
+.guild {
+    position: relative;
+    width: 72px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.tree{
+    padding-left: 0%;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.scroller {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 12px 0 0;
+    /* background-color: var(--background-tertiary); */
+    background-color: #202225;
+    contain: layout size;
+}
+
+.none-2 {
+    scrollbar-width: none;
+}
+
+.scrollerBase {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.listItem {
+    position: relative;
+    margin: 0 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 72px;
+}
+
+.guildSeparator {
+    height: 2px;
+    width: 32px;
+    border-radius: 1px;
+    /* background-color: var(--background-modifier-accent); */
+    background-color: rgba(79, 84, 92, 0.48);
+}
+
+.unreadMentionsIndicatorTop {
+    top: 0;
+}
+
+.unreadMentionsIndicatorBottom {
+    padding-top: 8px;
+}
+
+
+.list_item {
+    position: relative;
+    margin: 0 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 72px;
+}
+.guild_separator {
+    height: 2px;
+    width: 32px;
+    border-radius: 1px;
+    /* background-color: var(--background-modifier-accent); */
+    background-color: #5c615d;
+}

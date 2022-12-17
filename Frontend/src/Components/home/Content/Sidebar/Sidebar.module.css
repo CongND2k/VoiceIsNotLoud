@@ -1,0 +1,9 @@
+.sidebar {
+    flex-direction: column;
+    min-height: 0;
+    width: 240px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: #2f3136;
+}
